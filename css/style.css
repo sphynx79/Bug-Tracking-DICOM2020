@@ -1,0 +1,163 @@
+/*
+	Theme Name: Helpinator 2
+	Theme URI: http://www.helpinator.com
+	Description: WordPress theme for use with Helpinator
+	Version: 1.1
+	Author: Dmitri Popov
+	Author URI: http://www.dmitripopov.com
+	Tags: HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+body {
+	/*background-color: #354458;*/
+	background-color: #C4C4C4;/*BGCOLOR*/
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+#hprwrapper { 
+	display: block;
+	
+	/*border: 1px #a2a2a2 solid; */
+	width:99%; 
+	margin:0px auto; 
+}
+#hprheader { 
+	/*border: 2px #a2a2a2 solid; */
+	/*background-color: #29ABA4;*/
+	border: 1px #C5C5C5 solid;	
+	background-color: white;/*HEADERBGCOLOR*/
+	color: #565656;/*HEADERFONTCOLOR*/
+	height: 60px;
+}
+
+#hprheader  #headerlogo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  /*background: #555;*/
+}
+
+#hprheader  #headertitle {
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  font-family: Arial, Helvetica, sans-serif;/*HEADERFONT*/
+  font-size: 30px;/*HEADERFONTSIZE*/
+}
+
+#hprheader a {
+  color: #565656;
+}
+
+#hprcontent { 
+	width: 60%; 
+	border: 1px #C5C5C5 solid;
+	float: right; 
+	background-color: white;/*CONTENTBGCOLOR*/
+	padding: 10px;
+}
+#hprsidebar { 
+	/*background-color: white;*/
+	width: 33%; 
+	/*border: 1px #C5C5C5 solid; */
+	float: left; 
+}
+.delimiter { 
+	clear: both; 
+	height: 15px;
+}
+#hprfooter { 
+	border: 1px #C5C5C5 solid;	
+	background-color: white;/*FOOTERBGCOLOR*/
+	color: black;/*FOOTERFONTCOLOR*/
+        font-family: Arial, Helvetica, sans-serif;/*FOOTERFONT*/
+        font-size: 10px;/*FOOTERFONTSIZE*/
+
+	padding: 10px;
+}
+
+#hprtoctree a {
+white-space: normal;
+height: auto;
+padding: 0.5ex 1ex;
+margint-top:1ex;
+}
+
+#breadcrumbs{
+    list-style:none;
+    margin:10px 0;
+    overflow:hidden;
+}
+  
+#breadcrumbs li{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:15px;
+}
+  
+#breadcrumbs .separator{
+    font-size:18px;
+    font-weight:100;
+    color:#ccc;
+}
+
+.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+
+#nav {
+	width: 74px;
+	height: 50px;
+	float: right;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#navprev {
+	float: left;
+		
+}
+
+#navnext {
+	margin-left: 37px;
+}
+
+.ui-resizable-e { 
+    cursor: e-resize; 
+    width: 16px; 
+    right: -5px; 
+    top: 0; 
+    bottom: 0; 
+    background-color: gray;
+}
+
+.highlight { background-color: yellow }
+
+.slide img {
+   display: block; 
+   max-width: 100%; 
+   height: auto;
+   width: auto;
+   margin: 0 auto;
+}
+
+.slider {
+	margin: 20px;
+	border: 1px dashed black;
+}
+
+.steptitle {
+  padding: 5px;
+}
+
+.steptext {
+  padding: 5px;
+}
+
+#hprcontent img {
+   max-width: 100%; 
+   width: auto;
+   height: auto;
+}

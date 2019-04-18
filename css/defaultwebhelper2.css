@@ -1,0 +1,49 @@
+body {
+  background: #ffffff;
+  color: #656565 !important;
+  font-family: Verdana, sans-serif;
+  line-height: 20px;
+}
+
+#hprheader {
+background: #d6d6d6;
+background: -moz-linear-gradient(top, #d6d6d6 0%, #d6d6d6 42%, #d3d3d3 53%, #d6d6d6 61%, #c1c1c1 100%);
+background: -webkit-linear-gradient(top, #d6d6d6 0%,#d6d6d6 42%,#d3d3d3 53%,#d6d6d6 61%,#c1c1c1 100%);
+background: linear-gradient(to bottom, #d6d6d6 0%,#d6d6d6 42%,#d3d3d3 53%,#d6d6d6 61%,#c1c1c1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#c1c1c1',GradientType=0 );
+}
+
+.jstree-anchor {
+    font-size: 0.86em;
+}
+
+#breadcrumbs {
+    margin-bottom: 20px;
+}
+
+#breadcrumbs a{
+    color: #ffb400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#hprsidebar {
+    width: 26%;
+}
+
+.rvts5 {
+  line-height: 16px;
+}
+
+video {
+  width: 1020px;
+  height: 580px;
+}
+
+#hprheader #headertitle {
+    margin-top: 10px;
+}
