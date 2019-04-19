@@ -795,3 +795,6 @@ p,ul,ol /* Left align */
  orphans: 2;
  margin: 0px 0px 11px 0px;
 }
+/* ========== Lists ========== */
+.list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;}
+.list1 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;}
